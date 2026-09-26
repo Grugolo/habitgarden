@@ -25,11 +25,12 @@ That's it — no build step, no dependencies to install. It's plain HTML/CSS/JS.
 
 ## Using it
 
-- Tap **"+ Plant a new habit"** to add a good habit (grows a plant) or a bad habit (a weed you tame by resisting it).
-- Tap **"Water today"** / **"Mark resisted"** once a day per habit.
-- Tap a plant to see its health, streak, and 21-day history.
+- Tap **"+ Plant a new habit"** to add a good habit (grows a plant) or a bad habit (a weed you tame by resisting it). A species is picked at random for you each time.
+- Tap **"Water today"** / **"Mark resisted"** — a small card opens so you can jot a quick note about what you actually did (totally optional, tap "Skip" to log without one).
+- Tap a plant to open its detail page: health %, streak, a 21-day strip that fills in from the left (oldest → today), and a full scrollable history of every day you've logged, notes included.
 - Miss a day and the plant just fades a little — it doesn't reset or punish you. The goal is a gentle habit, not another addictive app.
 - In winter (Dec–Feb) bad-habit "weeds" get a visual thermal cover, and a slip during that time won't hurt as much — a bit of self-compassion built into the model.
+- Tap the **⚙ gear icon** on the garden screen to export your whole garden as JSON (copy to clipboard or download a `.json` file) or paste older JSON back in to restore it. This is the only way data leaves or enters the app — there's no account and no server.
 
 ## Installing as an app
 
@@ -37,7 +38,7 @@ Once hosted, most browsers (Chrome, Edge, Safari on iOS via "Add to Home Screen"
 
 ## Data & privacy
 
-Everything is stored locally in your browser's `localStorage` under the key `habitgarden:habits:v1`. Nothing is sent to any server. Clearing your browser data will reset the garden. There is no backend, no analytics, no accounts.
+Everything is stored locally in your browser's `localStorage` under the key `habitgarden:habits:v2`. Nothing is sent to any server. Clearing your browser data will reset the garden — use the export feature in Settings (⚙) to keep a backup. There is no backend, no analytics, no accounts.
 
 ## Customizing
 
